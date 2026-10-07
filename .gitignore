@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments and local configuration
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Pytest, reports, coverage and browser artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+report.html
+reports/
+assets/
+test-results/
+playwright-report/
+
+# IDE, OS and logs
+.vscode/
+.idea/
+.DS_Store
+*.log
